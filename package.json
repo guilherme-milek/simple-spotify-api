@@ -10,5 +10,9 @@
     "node-fetch": "^2.6.6",
     "nodemon": "^2.0.15",
     "request": "^2.88.2"
+  },
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
   }
 }
