@@ -9,7 +9,7 @@ app.use(cors());
 
 app.use(express.json());
 
-app.use("/tracks", searchRouter);
+app.use("/", searchRouter);
 app.use("/auth", authRouter);
 
 module.exports = app;
